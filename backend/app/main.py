@@ -6,7 +6,7 @@ import os
 
 from app.config import get_settings
 from app.database import Base, engine
-from app.routes import auth, products
+from app.routes import auth, products, ar, ml
 
 settings = get_settings()
 
@@ -44,6 +44,8 @@ except Exception:
 # Include routers
 app.include_router(auth.router, prefix="/api/v1/auth", tags=["Authentication"])
 app.include_router(products.router, prefix="/api/v1/products", tags=["Products"])
+app.include_router(ar.router, prefix="/api/v1/ar", tags=["AR Try-On"])
+app.include_router(ml.router, prefix="/api/v1/ml", tags=["Machine Learning"])
 
 
 @app.get("/")
