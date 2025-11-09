@@ -1,118 +1,8336 @@
 [
   {
     "id": 1,
-    "name": "Classic White T-Shirt",
-    "description": "Comfortable cotton t-shirt perfect for everyday wear",
+    "name": "Classic White Cotton T-Shirt",
+    "description": "Premium 100% cotton t-shirt with comfortable fit, perfect for everyday casual wear",
     "category": "shirts",
-    "subcategory": "t-shirts",
-    "brand": "StyleBrand",
-    "price": 29.99,
-    "image_urls": [
-      "https://example.com/images/tshirt-white-front.jpg",
-      "https://example.com/images/tshirt-white-back.jpg"
+    "brand": "Gap",
+    "price": 24.99,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
     ],
-    "color_variants": ["white", "black", "navy", "gray"],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "basic",
+      "everyday"
+    ],
+    "colors": [
+      "white"
+    ],
     "size_chart": {
-      "S": {"chest": "34-36", "length": "27"},
-      "M": {"chest": "38-40", "length": "28"},
-      "L": {"chest": "42-44", "length": "29"},
-      "XL": {"chest": "46-48", "length": "30"}
-    },
-    "materials": ["100% Cotton"],
-    "care_instructions": "Machine wash cold, tumble dry low",
-    "sustainability_score": 75,
-    "ar_compatible": true
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
   },
   {
     "id": 2,
-    "name": "Slim Fit Jeans",
-    "description": "Modern slim fit jeans with stretch comfort",
-    "category": "pants",
-    "subcategory": "jeans",
-    "brand": "DenimCo",
+    "name": "Navy Blue Polo Shirt",
+    "description": "Classic polo shirt with ribbed collar and short sleeves",
+    "category": "shirts",
+    "brand": "Ralph Lauren",
     "price": 79.99,
-    "image_urls": [
-      "https://example.com/images/jeans-blue-front.jpg"
+    "image_url": "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "color_variants": ["dark blue", "light blue", "black"],
+    "ar_compatible": true,
+    "style_tags": [
+      "smart-casual",
+      "preppy",
+      "classic"
+    ],
+    "colors": [
+      "navy"
+    ],
     "size_chart": {
-      "28": {"waist": "28", "inseam": "32"},
-      "30": {"waist": "30", "inseam": "32"},
-      "32": {"waist": "32", "inseam": "32"},
-      "34": {"waist": "34", "inseam": "32"}
-    },
-    "materials": ["98% Cotton", "2% Elastane"],
-    "care_instructions": "Machine wash cold inside out",
-    "sustainability_score": 60,
-    "ar_compatible": true
+      "S": {
+        "chest": 38,
+        "length": 28
+      },
+      "M": {
+        "chest": 41,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
   },
   {
     "id": 3,
-    "name": "Summer Floral Dress",
-    "description": "Light and breezy floral print dress for warm days",
-    "category": "dresses",
-    "subcategory": "casual",
-    "brand": "FashionCo",
-    "price": 89.99,
-    "image_urls": [
-      "https://example.com/images/dress-floral.jpg"
+    "name": "Black Crew Neck Sweater",
+    "description": "Soft merino wool sweater for cold weather comfort",
+    "category": "shirts",
+    "brand": "Uniqlo",
+    "price": 49.99,
+    "image_url": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
     ],
-    "color_variants": ["floral-pink", "floral-blue"],
+    "ar_compatible": true,
+    "style_tags": [
+      "winter",
+      "cozy",
+      "layering"
+    ],
+    "colors": [
+      "black"
+    ],
     "size_chart": {
-      "XS": {"bust": "32", "waist": "24", "hips": "34"},
-      "S": {"bust": "34", "waist": "26", "hips": "36"},
-      "M": {"bust": "36", "waist": "28", "hips": "38"},
-      "L": {"bust": "38", "waist": "30", "hips": "40"}
-    },
-    "materials": ["100% Rayon"],
-    "care_instructions": "Hand wash cold, hang dry",
-    "sustainability_score": 80,
-    "ar_compatible": true
+      "S": {
+        "chest": 38,
+        "length": 26
+      },
+      "M": {
+        "chest": 41,
+        "length": 27
+      },
+      "L": {
+        "chest": 44,
+        "length": 28
+      }
+    }
   },
   {
     "id": 4,
-    "name": "Leather Jacket",
-    "description": "Classic black leather jacket with zipper closure",
-    "category": "outerwear",
-    "subcategory": "jackets",
-    "brand": "UrbanStyle",
-    "price": 249.99,
-    "image_urls": [
-      "https://example.com/images/jacket-leather.jpg"
+    "name": "Striped Oxford Button-Down",
+    "description": "Classic striped oxford shirt with button-down collar",
+    "category": "shirts",
+    "brand": "J.Crew",
+    "price": 64.99,
+    "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "color_variants": ["black", "brown"],
+    "ar_compatible": true,
+    "style_tags": [
+      "business-casual",
+      "classic",
+      "striped"
+    ],
+    "colors": [
+      "blue-white"
+    ],
     "size_chart": {
-      "S": {"chest": "36", "shoulder": "17", "sleeve": "24"},
-      "M": {"chest": "38", "shoulder": "18", "sleeve": "25"},
-      "L": {"chest": "40", "shoulder": "19", "sleeve": "26"}
-    },
-    "materials": ["100% Genuine Leather"],
-    "care_instructions": "Professional leather cleaning only",
-    "sustainability_score": 45,
-    "ar_compatible": true
+      "S": {
+        "chest": 38,
+        "length": 30
+      },
+      "M": {
+        "chest": 41,
+        "length": 31
+      },
+      "L": {
+        "chest": 44,
+        "length": 32
+      }
+    }
   },
   {
     "id": 5,
-    "name": "Running Sneakers",
-    "description": "Lightweight running shoes with cushioned sole",
-    "category": "shoes",
-    "subcategory": "athletic",
-    "brand": "ActiveWear",
-    "price": 119.99,
-    "image_urls": [
-      "https://example.com/images/sneakers-running.jpg"
+    "name": "Gray Henley Long Sleeve",
+    "description": "Comfortable henley with three-button placket",
+    "category": "shirts",
+    "brand": "Banana Republic",
+    "price": 44.99,
+    "image_url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "color_variants": ["white-blue", "black-red", "gray"],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "layering",
+      "comfortable"
+    ],
+    "colors": [
+      "gray"
+    ],
     "size_chart": {
-      "7": {"length": "25.0cm"},
-      "8": {"length": "25.5cm"},
-      "9": {"length": "26.0cm"},
-      "10": {"length": "26.5cm"},
-      "11": {"length": "27.0cm"}
-    },
-    "materials": ["Mesh Upper", "Rubber Sole"],
-    "care_instructions": "Wipe clean with damp cloth",
-    "sustainability_score": 55,
-    "ar_compatible": false
+      "S": {
+        "chest": 37,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 43,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "White Linen Summer Shirt",
+    "description": "Breathable linen shirt perfect for warm weather",
+    "category": "shirts",
+    "brand": "Zara",
+    "price": 39.99,
+    "image_url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "summer",
+      "resort",
+      "breathable"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 29
+      },
+      "M": {
+        "chest": 41,
+        "length": 30
+      },
+      "L": {
+        "chest": 44,
+        "length": 31
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Burgundy V-Neck Tee",
+    "description": "Soft cotton v-neck t-shirt in rich burgundy",
+    "category": "shirts",
+    "brand": "H&M",
+    "price": 19.99,
+    "image_url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "basic",
+      "comfortable"
+    ],
+    "colors": [
+      "burgundy"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 27
+      },
+      "M": {
+        "chest": 39,
+        "length": 28
+      },
+      "L": {
+        "chest": 42,
+        "length": 29
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Charcoal Flannel Shirt",
+    "description": "Warm flannel shirt with classic plaid pattern",
+    "category": "shirts",
+    "brand": "L.L.Bean",
+    "price": 54.99,
+    "image_url": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "fall",
+      "layering",
+      "outdoor"
+    ],
+    "colors": [
+      "charcoal"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 29
+      },
+      "M": {
+        "chest": 41,
+        "length": 30
+      },
+      "L": {
+        "chest": 44,
+        "length": 31
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Green Military Shirt",
+    "description": "Utility-style shirt with chest pockets",
+    "category": "shirts",
+    "brand": "Carhartt",
+    "price": 59.99,
+    "image_url": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "workwear",
+      "utility",
+      "rugged"
+    ],
+    "colors": [
+      "olive"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 39,
+        "length": 29
+      },
+      "M": {
+        "chest": 42,
+        "length": 30
+      },
+      "L": {
+        "chest": 45,
+        "length": 31
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Cream Knit Cardigan",
+    "description": "Cozy cable-knit cardigan with button closure",
+    "category": "shirts",
+    "brand": "Madewell",
+    "price": 89.99,
+    "image_url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "cozy",
+      "layering",
+      "feminine"
+    ],
+    "colors": [
+      "cream"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 24
+      },
+      "M": {
+        "chest": 39,
+        "length": 25
+      },
+      "L": {
+        "chest": 42,
+        "length": 26
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Slim Fit Black Jeans",
+    "description": "Modern slim fit jeans with stretch for comfort",
+    "category": "pants",
+    "brand": "Levi's",
+    "price": 79.99,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "denim",
+      "slim-fit",
+      "versatile"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "Dark Wash Bootcut Jeans",
+    "description": "Classic bootcut jeans in dark indigo wash",
+    "category": "pants",
+    "brand": "Wrangler",
+    "price": 64.99,
+    "image_url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "bootcut",
+      "denim"
+    ],
+    "colors": [
+      "dark-blue"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Khaki Chino Pants",
+    "description": "Versatile chinos perfect for business casual",
+    "category": "pants",
+    "brand": "Dockers",
+    "price": 54.99,
+    "image_url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400",
+    "sizes_available": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "business-casual",
+      "versatile",
+      "classic"
+    ],
+    "colors": [
+      "khaki"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Gray Jogger Sweatpants",
+    "description": "Comfortable joggers with elastic cuffs",
+    "category": "pants",
+    "brand": "Nike",
+    "price": 59.99,
+    "image_url": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "athletic",
+      "comfortable",
+      "casual"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "S": {
+        "waist": 28,
+        "inseam": 30
+      },
+      "M": {
+        "waist": 32,
+        "inseam": 31
+      },
+      "L": {
+        "waist": 36,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "Navy Dress Pants",
+    "description": "Tailored dress pants for professional settings",
+    "category": "pants",
+    "brand": "Brooks Brothers",
+    "price": 98.99,
+    "image_url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400",
+    "sizes_available": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "professional",
+      "tailored"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "Light Blue Skinny Jeans",
+    "description": "Trendy skinny jeans in light wash denim",
+    "category": "pants",
+    "brand": "Zara",
+    "price": 49.99,
+    "image_url": "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=400",
+    "sizes_available": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "skinny-fit",
+      "casual"
+    ],
+    "colors": [
+      "light-blue"
+    ],
+    "size_chart": {
+      "28": {
+        "waist": 28,
+        "inseam": 30
+      },
+      "30": {
+        "waist": 30,
+        "inseam": 30
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 30
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "Olive Cargo Pants",
+    "description": "Utility pants with multiple pockets",
+    "category": "pants",
+    "brand": "Carhartt",
+    "price": 69.99,
+    "image_url": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400",
+    "sizes_available": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "utility",
+      "outdoor",
+      "functional"
+    ],
+    "colors": [
+      "olive"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "Black Leggings",
+    "description": "High-waisted athletic leggings with moisture-wicking fabric",
+    "category": "pants",
+    "brand": "Lululemon",
+    "price": 98.0,
+    "image_url": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "athletic",
+      "yoga",
+      "comfortable"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "waist": 26,
+        "hips": 36
+      },
+      "M": {
+        "waist": 28,
+        "hips": 38
+      },
+      "L": {
+        "waist": 31,
+        "hips": 41
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "Beige Wide-Leg Trousers",
+    "description": "Elegant wide-leg trousers for a sophisticated look",
+    "category": "pants",
+    "brand": "Mango",
+    "price": 74.99,
+    "image_url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "elegant",
+      "wide-leg",
+      "sophisticated"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "waist": 26,
+        "inseam": 32
+      },
+      "M": {
+        "waist": 28,
+        "inseam": 32
+      },
+      "L": {
+        "waist": 30,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "Denim Shorts",
+    "description": "Classic denim shorts perfect for summer",
+    "category": "pants",
+    "brand": "Gap",
+    "price": 39.99,
+    "image_url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400",
+    "sizes_available": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "summer",
+      "casual",
+      "denim"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {
+      "28": {
+        "waist": 28,
+        "inseam": 5
+      },
+      "30": {
+        "waist": 30,
+        "inseam": 5
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 5
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "Floral Maxi Dress",
+    "description": "Romantic floral print maxi dress for special occasions",
+    "category": "dresses",
+    "brand": "Free People",
+    "price": 128.0,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "romantic",
+      "floral",
+      "maxi"
+    ],
+    "colors": [
+      "multicolor"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 26,
+        "length": 58
+      },
+      "M": {
+        "bust": 36,
+        "waist": 28,
+        "length": 59
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "Little Black Dress",
+    "description": "Classic LBD perfect for any occasion",
+    "category": "dresses",
+    "brand": "Calvin Klein",
+    "price": 119.0,
+    "image_url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "versatile",
+      "elegant"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 33,
+        "waist": 26,
+        "length": 36
+      },
+      "M": {
+        "bust": 35,
+        "waist": 28,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "Navy Wrap Dress",
+    "description": "Flattering wrap dress with tie waist",
+    "category": "dresses",
+    "brand": "Diane von Furstenberg",
+    "price": 298.0,
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "wrap",
+      "classic",
+      "flattering"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 38
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 39
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "Sundress Midi",
+    "description": "Breezy sundress in cheerful yellow",
+    "category": "dresses",
+    "brand": "Reformation",
+    "price": 178.0,
+    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "summer",
+      "cheerful",
+      "midi"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 33,
+        "waist": 26,
+        "length": 44
+      },
+      "M": {
+        "bust": 35,
+        "waist": 28,
+        "length": 45
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "Evening Cocktail Dress",
+    "description": "Elegant cocktail dress with sequin details",
+    "category": "dresses",
+    "brand": "Kate Spade",
+    "price": 248.0,
+    "image_url": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "evening",
+      "cocktail",
+      "elegant"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 35
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 36
+      }
+    }
+  },
+  {
+    "id": 26,
+    "name": "Bohemian Peasant Dress",
+    "description": "Free-spirited dress with embroidered details",
+    "category": "dresses",
+    "brand": "Anthropologie",
+    "price": 158.0,
+    "image_url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "bohemian",
+      "casual",
+      "embroidered"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 35,
+        "waist": 28,
+        "length": 34
+      },
+      "M": {
+        "bust": 37,
+        "waist": 30,
+        "length": 35
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "Red Fit-and-Flare Dress",
+    "description": "Bold red dress with flared skirt",
+    "category": "dresses",
+    "brand": "Ted Baker",
+    "price": 195.0,
+    "image_url": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "bold",
+      "fit-and-flare",
+      "party"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 28,
+    "name": "White Shirt Dress",
+    "description": "Crisp white shirt dress for effortless style",
+    "category": "dresses",
+    "brand": "COS",
+    "price": 129.0,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "minimalist",
+      "crisp",
+      "versatile"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 28,
+        "length": 37
+      },
+      "M": {
+        "bust": 36,
+        "waist": 30,
+        "length": 38
+      }
+    }
+  },
+  {
+    "id": 29,
+    "name": "Green Midi Dress",
+    "description": "Elegant midi dress in emerald green",
+    "category": "dresses",
+    "brand": "Zara",
+    "price": 79.99,
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "elegant",
+      "midi",
+      "sophisticated"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 33,
+        "waist": 26,
+        "length": 44
+      },
+      "M": {
+        "bust": 35,
+        "waist": 28,
+        "length": 45
+      }
+    }
+  },
+  {
+    "id": 30,
+    "name": "Polka Dot Tea Dress",
+    "description": "Vintage-inspired tea dress with polka dots",
+    "category": "dresses",
+    "brand": "ModCloth",
+    "price": 89.99,
+    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "vintage",
+      "playful",
+      "tea-dress"
+    ],
+    "colors": [
+      "navy-white"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 40
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 41
+      }
+    }
+  },
+  {
+    "id": 31,
+    "name": "Black Leather Jacket",
+    "description": "Classic motorcycle-style leather jacket",
+    "category": "jackets",
+    "brand": "AllSaints",
+    "price": 398.0,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "edgy",
+      "classic",
+      "leather"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 24,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 39,
+        "length": 25,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 32,
+    "name": "Navy Peacoat",
+    "description": "Double-breasted wool peacoat for cold weather",
+    "category": "jackets",
+    "brand": "J.Crew",
+    "price": 298.0,
+    "image_url": "https://images.unsplash.com/photo-1548126032-f63f2c1f4d0d?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "winter",
+      "tailored"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 30,
+        "sleeve": 25
+      },
+      "M": {
+        "chest": 41,
+        "length": 31,
+        "sleeve": 26
+      }
+    }
+  },
+  {
+    "id": 33,
+    "name": "Gray Bomber Jacket",
+    "description": "Modern bomber jacket with ribbed cuffs",
+    "category": "jackets",
+    "brand": "Alpha Industries",
+    "price": 165.0,
+    "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "sporty",
+      "bomber"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 25,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 26,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 34,
+    "name": "Khaki Trench Coat",
+    "description": "Classic trench coat with belt",
+    "category": "jackets",
+    "brand": "Burberry",
+    "price": 1490.0,
+    "image_url": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "elegant",
+      "trench"
+    ],
+    "colors": [
+      "khaki"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 40,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 39,
+        "length": 41,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "Down Puffer Jacket",
+    "description": "Warm puffer jacket with hood",
+    "category": "jackets",
+    "brand": "The North Face",
+    "price": 279.0,
+    "image_url": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "winter",
+      "warm",
+      "outdoor"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 27,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 28,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 36,
+    "name": "Denim Trucker Jacket",
+    "description": "Classic trucker jacket in medium wash denim",
+    "category": "jackets",
+    "brand": "Levi's",
+    "price": 98.0,
+    "image_url": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "denim",
+      "classic"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 24,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 25,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 37,
+    "name": "Olive Field Jacket",
+    "description": "Utility-style field jacket with pockets",
+    "category": "jackets",
+    "brand": "Barbour",
+    "price": 425.0,
+    "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "utility",
+      "outdoor",
+      "functional"
+    ],
+    "colors": [
+      "olive"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 39,
+        "length": 28,
+        "sleeve": 25
+      },
+      "M": {
+        "chest": 42,
+        "length": 29,
+        "sleeve": 26
+      }
+    }
+  },
+  {
+    "id": 38,
+    "name": "Gray Hooded Sweatshirt",
+    "description": "Comfortable hoodie for everyday wear",
+    "category": "jackets",
+    "brand": "Champion",
+    "price": 54.99,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400",
+    "sizes_available": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "comfortable",
+      "athletic"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 27,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 28,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 39,
+    "name": "Wool Blazer",
+    "description": "Tailored wool blazer for professional settings",
+    "category": "jackets",
+    "brand": "Hugo Boss",
+    "price": 595.0,
+    "image_url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400",
+    "sizes_available": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "professional",
+      "tailored",
+      "formal"
+    ],
+    "colors": [
+      "charcoal"
+    ],
+    "size_chart": {
+      "38": {
+        "chest": 38,
+        "length": 30,
+        "sleeve": 25
+      },
+      "40": {
+        "chest": 40,
+        "length": 31,
+        "sleeve": 26
+      }
+    }
+  },
+  {
+    "id": 40,
+    "name": "Lightweight Windbreaker",
+    "description": "Packable windbreaker for outdoor activities",
+    "category": "jackets",
+    "brand": "Patagonia",
+    "price": 129.0,
+    "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "outdoor",
+      "lightweight",
+      "functional"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 41,
+    "name": "White Running Sneakers",
+    "description": "Lightweight running shoes with responsive cushioning",
+    "category": "shoes",
+    "brand": "Nike",
+    "price": 130.0,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "athletic",
+      "running",
+      "comfortable"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 42,
+    "name": "Black Leather Boots",
+    "description": "Classic leather chelsea boots",
+    "category": "shoes",
+    "brand": "Dr. Martens",
+    "price": 170.0,
+    "image_url": "https://images.unsplash.com/photo-1542840843-3349799cbed6?w=400",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "classic",
+      "leather",
+      "boots"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 43,
+    "name": "Brown Suede Loafers",
+    "description": "Elegant suede loafers for smart casual wear",
+    "category": "shoes",
+    "brand": "Cole Haan",
+    "price": 198.0,
+    "image_url": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=400",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "elegant",
+      "smart-casual",
+      "suede"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 44,
+    "name": "Canvas Sneakers",
+    "description": "Classic canvas low-top sneakers",
+    "category": "shoes",
+    "brand": "Converse",
+    "price": 60.0,
+    "image_url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=400",
+    "sizes_available": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "classic",
+      "versatile"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 45,
+    "name": "Hiking Boots",
+    "description": "Durable waterproof hiking boots",
+    "category": "shoes",
+    "brand": "Timberland",
+    "price": 189.0,
+    "image_url": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=400",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "outdoor",
+      "durable",
+      "waterproof"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 46,
+    "name": "Black Dress Shoes",
+    "description": "Formal oxford dress shoes",
+    "category": "shoes",
+    "brand": "Allen Edmonds",
+    "price": 395.0,
+    "image_url": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=400",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "professional",
+      "oxford"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 47,
+    "name": "Sandals",
+    "description": "Comfortable leather sandals for summer",
+    "category": "shoes",
+    "brand": "Birkenstock",
+    "price": 99.0,
+    "image_url": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400",
+    "sizes_available": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "summer",
+      "comfortable",
+      "casual"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 48,
+    "name": "High-Top Basketball Shoes",
+    "description": "Performance basketball shoes with ankle support",
+    "category": "shoes",
+    "brand": "Adidas",
+    "price": 150.0,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "athletic",
+      "basketball",
+      "high-top"
+    ],
+    "colors": [
+      "black-white"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 49,
+    "name": "Slip-On Mules",
+    "description": "Easy slip-on mules for effortless style",
+    "category": "shoes",
+    "brand": "Steve Madden",
+    "price": 79.99,
+    "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400",
+    "sizes_available": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "easy",
+      "trendy"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "7": {
+        "length": 24.0
+      },
+      "8": {
+        "length": 24.5
+      },
+      "9": {
+        "length": 25.0
+      }
+    }
+  },
+  {
+    "id": 50,
+    "name": "Running Shoes",
+    "description": "High-performance running shoes",
+    "category": "shoes",
+    "brand": "Asics",
+    "price": 140.0,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "running",
+      "athletic",
+      "performance"
+    ],
+    "colors": [
+      "blue-orange"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 51,
+    "name": "Striped Dress Shirt",
+    "description": "High-quality striped dress shirt perfect for any occasion",
+    "category": "shirts",
+    "brand": "Gap",
+    "price": 98.19,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=51",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "minimalist",
+      "formal",
+      "sporty"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 52,
+    "name": "Graphic Tee",
+    "description": "High-quality graphic tee perfect for any occasion",
+    "category": "shirts",
+    "brand": "J.Crew",
+    "price": 45.36,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=52",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "formal",
+      "minimalist"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 53,
+    "name": "Turtleneck Sweater",
+    "description": "High-quality turtleneck sweater perfect for any occasion",
+    "category": "shirts",
+    "brand": "Banana Republic",
+    "price": 58.27,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=53",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "business-casual",
+      "sporty",
+      "casual"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 54,
+    "name": "Denim Shirt",
+    "description": "High-quality denim shirt perfect for any occasion",
+    "category": "shirts",
+    "brand": "Brooks Brothers",
+    "price": 95.29,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=54",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "vintage",
+      "sporty"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 55,
+    "name": "Athletic Tank Top",
+    "description": "High-quality athletic tank top perfect for any occasion",
+    "category": "shirts",
+    "brand": "Uniqlo",
+    "price": 143.88,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=55",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "business-casual",
+      "casual",
+      "formal"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 56,
+    "name": "Plaid Flannel",
+    "description": "High-quality plaid flannel perfect for any occasion",
+    "category": "shirts",
+    "brand": "Zara",
+    "price": 27.51,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=56",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "business-casual",
+      "formal",
+      "minimalist"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 57,
+    "name": "Hoodie Pullover",
+    "description": "High-quality hoodie pullover perfect for any occasion",
+    "category": "shirts",
+    "brand": "Zara",
+    "price": 72.0,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=57",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "formal",
+      "sporty"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 58,
+    "name": "Zip-Up Hoodie",
+    "description": "High-quality zip-up hoodie perfect for any occasion",
+    "category": "shirts",
+    "brand": "J.Crew",
+    "price": 72.46,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=58",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "casual",
+      "vintage"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 59,
+    "name": "Band Tee",
+    "description": "High-quality band tee perfect for any occasion",
+    "category": "shirts",
+    "brand": "Zara",
+    "price": 99.52,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=59",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "minimalist",
+      "business-casual"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 60,
+    "name": "Long Sleeve Henley",
+    "description": "High-quality long sleeve henley perfect for any occasion",
+    "category": "shirts",
+    "brand": "Uniqlo",
+    "price": 50.17,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=60",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "vintage",
+      "minimalist",
+      "sporty"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 61,
+    "name": "Mock Neck Top",
+    "description": "High-quality mock neck top perfect for any occasion",
+    "category": "shirts",
+    "brand": "J.Crew",
+    "price": 62.77,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=61",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "sporty",
+      "formal",
+      "casual"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 62,
+    "name": "Quarter Zip Pullover",
+    "description": "High-quality quarter zip pullover perfect for any occasion",
+    "category": "shirts",
+    "brand": "Brooks Brothers",
+    "price": 41.08,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=62",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "sporty",
+      "casual",
+      "vintage"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 63,
+    "name": "Rugby Shirt",
+    "description": "High-quality rugby shirt perfect for any occasion",
+    "category": "shirts",
+    "brand": "H&M",
+    "price": 126.4,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=63",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "sporty",
+      "minimalist"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 64,
+    "name": "Baseball Tee",
+    "description": "High-quality baseball tee perfect for any occasion",
+    "category": "shirts",
+    "brand": "J.Crew",
+    "price": 27.19,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=64",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "business-casual",
+      "minimalist"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 65,
+    "name": "Thermal Long Sleeve",
+    "description": "High-quality thermal long sleeve perfect for any occasion",
+    "category": "shirts",
+    "brand": "H&M",
+    "price": 97.38,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=65",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "sporty",
+      "formal",
+      "minimalist"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 66,
+    "name": "Crewneck Sweatshirt",
+    "description": "High-quality crewneck sweatshirt perfect for any occasion",
+    "category": "shirts",
+    "brand": "Gap",
+    "price": 89.85,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=66",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "minimalist",
+      "casual",
+      "business-casual"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 67,
+    "name": "Muscle Tee",
+    "description": "High-quality muscle tee perfect for any occasion",
+    "category": "shirts",
+    "brand": "Uniqlo",
+    "price": 45.04,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=67",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "sporty",
+      "vintage"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 68,
+    "name": "Hawaiian Shirt",
+    "description": "High-quality hawaiian shirt perfect for any occasion",
+    "category": "shirts",
+    "brand": "Uniqlo",
+    "price": 103.97,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=68",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "sporty",
+      "business-casual"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 69,
+    "name": "Chambray Shirt",
+    "description": "High-quality chambray shirt perfect for any occasion",
+    "category": "shirts",
+    "brand": "J.Crew",
+    "price": 121.77,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=69",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "minimalist",
+      "formal",
+      "casual"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 70,
+    "name": "Performance Polo",
+    "description": "High-quality performance polo perfect for any occasion",
+    "category": "shirts",
+    "brand": "Banana Republic",
+    "price": 84.64,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=70",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "vintage",
+      "formal",
+      "casual"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 71,
+    "name": "Cashmere Sweater",
+    "description": "High-quality cashmere sweater perfect for any occasion",
+    "category": "shirts",
+    "brand": "Uniqlo",
+    "price": 39.5,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=71",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "vintage",
+      "sporty",
+      "formal"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 72,
+    "name": "Shawl Cardigan",
+    "description": "High-quality shawl cardigan perfect for any occasion",
+    "category": "shirts",
+    "brand": "Zara",
+    "price": 56.95,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=72",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "formal",
+      "business-casual"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 73,
+    "name": "Sleeveless Vest",
+    "description": "High-quality sleeveless vest perfect for any occasion",
+    "category": "shirts",
+    "brand": "Gap",
+    "price": 126.1,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=73",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "vintage",
+      "sporty"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 74,
+    "name": "Tunic Top",
+    "description": "High-quality tunic top perfect for any occasion",
+    "category": "shirts",
+    "brand": "Banana Republic",
+    "price": 145.3,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=74",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "casual",
+      "sporty"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 75,
+    "name": "Crop Top",
+    "description": "High-quality crop top perfect for any occasion",
+    "category": "shirts",
+    "brand": "Uniqlo",
+    "price": 131.73,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=75",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "sporty",
+      "casual",
+      "vintage"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 76,
+    "name": "Off-Shoulder Blouse",
+    "description": "High-quality off-shoulder blouse perfect for any occasion",
+    "category": "shirts",
+    "brand": "J.Crew",
+    "price": 30.46,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=76",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "minimalist",
+      "sporty"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 77,
+    "name": "Peasant Top",
+    "description": "High-quality peasant top perfect for any occasion",
+    "category": "shirts",
+    "brand": "Gap",
+    "price": 120.86,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=77",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "sporty",
+      "minimalist"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 78,
+    "name": "Silk Blouse",
+    "description": "High-quality silk blouse perfect for any occasion",
+    "category": "shirts",
+    "brand": "Ralph Lauren",
+    "price": 54.83,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=78",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "business-casual",
+      "sporty",
+      "formal"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 79,
+    "name": "Cowl Neck Sweater",
+    "description": "High-quality cowl neck sweater perfect for any occasion",
+    "category": "shirts",
+    "brand": "Banana Republic",
+    "price": 109.2,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=79",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "business-casual",
+      "minimalist",
+      "formal"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 80,
+    "name": "Peplum Top",
+    "description": "High-quality peplum top perfect for any occasion",
+    "category": "shirts",
+    "brand": "J.Crew",
+    "price": 51.94,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&sig=80",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "business-casual",
+      "sporty"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 36,
+        "length": 28
+      },
+      "M": {
+        "chest": 40,
+        "length": 29
+      },
+      "L": {
+        "chest": 44,
+        "length": 30
+      }
+    }
+  },
+  {
+    "id": 81,
+    "name": "Straight Leg Jeans",
+    "description": "Comfortable straight leg jeans with modern styling",
+    "category": "pants",
+    "brand": "Nike",
+    "price": 76.76,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=81",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "classic",
+      "business-casual"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 82,
+    "name": "Athletic Track Pants",
+    "description": "Comfortable athletic track pants with modern styling",
+    "category": "pants",
+    "brand": "Carhartt",
+    "price": 150.14,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=82",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "trendy",
+      "classic"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 83,
+    "name": "Corduroy Pants",
+    "description": "Comfortable corduroy pants with modern styling",
+    "category": "pants",
+    "brand": "Carhartt",
+    "price": 160.3,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=83",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "formal",
+      "classic"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 84,
+    "name": "Linen Pants",
+    "description": "Comfortable linen pants with modern styling",
+    "category": "pants",
+    "brand": "Lululemon",
+    "price": 171.7,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=84",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "formal",
+      "athletic"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 85,
+    "name": "Palazzo Pants",
+    "description": "Comfortable palazzo pants with modern styling",
+    "category": "pants",
+    "brand": "Lululemon",
+    "price": 108.39,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=85",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "classic",
+      "athletic"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 86,
+    "name": "Culottes",
+    "description": "Comfortable culottes with modern styling",
+    "category": "pants",
+    "brand": "Nike",
+    "price": 32.03,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=86",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "business-casual",
+      "classic",
+      "casual"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 87,
+    "name": "Capri Pants",
+    "description": "Comfortable capri pants with modern styling",
+    "category": "pants",
+    "brand": "Nike",
+    "price": 152.03,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=87",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "athletic",
+      "trendy"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 88,
+    "name": "Sweatpants",
+    "description": "Comfortable sweatpants with modern styling",
+    "category": "pants",
+    "brand": "Zara",
+    "price": 36.76,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=88",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "athletic",
+      "business-casual",
+      "classic"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 89,
+    "name": "Yoga Pants",
+    "description": "Comfortable yoga pants with modern styling",
+    "category": "pants",
+    "brand": "Levi's",
+    "price": 112.73,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=89",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "business-casual",
+      "trendy",
+      "casual"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 90,
+    "name": "Leather Pants",
+    "description": "Comfortable leather pants with modern styling",
+    "category": "pants",
+    "brand": "Levi's",
+    "price": 53.03,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=90",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "casual",
+      "athletic"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 91,
+    "name": "Pleated Trousers",
+    "description": "Comfortable pleated trousers with modern styling",
+    "category": "pants",
+    "brand": "Dockers",
+    "price": 157.67,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=91",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "business-casual",
+      "classic"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 92,
+    "name": "Cropped Pants",
+    "description": "Comfortable cropped pants with modern styling",
+    "category": "pants",
+    "brand": "Levi's",
+    "price": 172.68,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=92",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "athletic",
+      "business-casual"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 93,
+    "name": "Harem Pants",
+    "description": "Comfortable harem pants with modern styling",
+    "category": "pants",
+    "brand": "Gap",
+    "price": 139.32,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=93",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "classic",
+      "trendy"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 94,
+    "name": "Jumpsuit",
+    "description": "Comfortable jumpsuit with modern styling",
+    "category": "pants",
+    "brand": "Nike",
+    "price": 170.47,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=94",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "trendy",
+      "casual"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 95,
+    "name": "Overalls",
+    "description": "Comfortable overalls with modern styling",
+    "category": "pants",
+    "brand": "Dockers",
+    "price": 37.15,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=95",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "casual",
+      "athletic"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 96,
+    "name": "Paperbag Pants",
+    "description": "Comfortable paperbag pants with modern styling",
+    "category": "pants",
+    "brand": "Wrangler",
+    "price": 160.2,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=96",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "classic",
+      "casual"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 97,
+    "name": "Cigarette Pants",
+    "description": "Comfortable cigarette pants with modern styling",
+    "category": "pants",
+    "brand": "Nike",
+    "price": 54.32,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=97",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 98,
+    "name": "Tapered Pants",
+    "description": "Comfortable tapered pants with modern styling",
+    "category": "pants",
+    "brand": "Wrangler",
+    "price": 131.94,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=98",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "athletic",
+      "trendy",
+      "casual"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 99,
+    "name": "Flare Jeans",
+    "description": "Comfortable flare jeans with modern styling",
+    "category": "pants",
+    "brand": "Nike",
+    "price": 164.45,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=99",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "trendy",
+      "casual"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 100,
+    "name": "Mom Jeans",
+    "description": "Comfortable mom jeans with modern styling",
+    "category": "pants",
+    "brand": "Wrangler",
+    "price": 78.2,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=100",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "business-casual",
+      "athletic"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 101,
+    "name": "Boyfriend Jeans",
+    "description": "Comfortable boyfriend jeans with modern styling",
+    "category": "pants",
+    "brand": "Gap",
+    "price": 179.09,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=101",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "athletic",
+      "business-casual"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 102,
+    "name": "Jeggings",
+    "description": "Comfortable jeggings with modern styling",
+    "category": "pants",
+    "brand": "Wrangler",
+    "price": 84.3,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=102",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "athletic",
+      "casual"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 103,
+    "name": "Ponte Pants",
+    "description": "Comfortable ponte pants with modern styling",
+    "category": "pants",
+    "brand": "Zara",
+    "price": 151.49,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=103",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "athletic",
+      "business-casual"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 104,
+    "name": "Tuxedo Pants",
+    "description": "Comfortable tuxedo pants with modern styling",
+    "category": "pants",
+    "brand": "Dockers",
+    "price": 127.8,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=104",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "athletic",
+      "formal"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 105,
+    "name": "Drawstring Pants",
+    "description": "Comfortable drawstring pants with modern styling",
+    "category": "pants",
+    "brand": "Lululemon",
+    "price": 31.09,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=105",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "business-casual",
+      "classic"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 106,
+    "name": "Bermuda Shorts",
+    "description": "Comfortable bermuda shorts with modern styling",
+    "category": "pants",
+    "brand": "Gap",
+    "price": 71.93,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=106",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "business-casual",
+      "casual"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 107,
+    "name": "Athletic Shorts",
+    "description": "Comfortable athletic shorts with modern styling",
+    "category": "pants",
+    "brand": "Levi's",
+    "price": 178.01,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=107",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "formal",
+      "trendy"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 108,
+    "name": "Tailored Shorts",
+    "description": "Comfortable tailored shorts with modern styling",
+    "category": "pants",
+    "brand": "Lululemon",
+    "price": 74.69,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=108",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "athletic",
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 109,
+    "name": "Bike Shorts",
+    "description": "Comfortable bike shorts with modern styling",
+    "category": "pants",
+    "brand": "Nike",
+    "price": 86.45,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=109",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "athletic",
+      "casual"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 110,
+    "name": "Board Shorts",
+    "description": "Comfortable board shorts with modern styling",
+    "category": "pants",
+    "brand": "Gap",
+    "price": 141.73,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&sig=110",
+    "sizes_available": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "casual",
+      "formal"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "30": {
+        "waist": 30,
+        "inseam": 32
+      },
+      "32": {
+        "waist": 32,
+        "inseam": 32
+      },
+      "34": {
+        "waist": 34,
+        "inseam": 32
+      }
+    }
+  },
+  {
+    "id": 111,
+    "name": "A-Line Dress",
+    "description": "Beautiful a-line dress for special occasions",
+    "category": "dresses",
+    "brand": "DVF",
+    "price": 212.31,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=111",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "romantic",
+      "elegant",
+      "cocktail"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 112,
+    "name": "Bodycon Dress",
+    "description": "Beautiful bodycon dress for special occasions",
+    "category": "dresses",
+    "brand": "Mango",
+    "price": 276.22,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=112",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "cocktail",
+      "casual",
+      "elegant"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 113,
+    "name": "Shift Dress",
+    "description": "Beautiful shift dress for special occasions",
+    "category": "dresses",
+    "brand": "Reformation",
+    "price": 109.94,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=113",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "summer",
+      "cocktail",
+      "casual"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 114,
+    "name": "Sheath Dress",
+    "description": "Beautiful sheath dress for special occasions",
+    "category": "dresses",
+    "brand": "Mango",
+    "price": 177.09,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=114",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "elegant",
+      "summer",
+      "casual"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 115,
+    "name": "Slip Dress",
+    "description": "Beautiful slip dress for special occasions",
+    "category": "dresses",
+    "brand": "Zara",
+    "price": 287.54,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=115",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "romantic",
+      "summer",
+      "cocktail"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 116,
+    "name": "Tunic Dress",
+    "description": "Beautiful tunic dress for special occasions",
+    "category": "dresses",
+    "brand": "DVF",
+    "price": 109.45,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=116",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "summer",
+      "casual",
+      "cocktail"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 117,
+    "name": "Sweater Dress",
+    "description": "Beautiful sweater dress for special occasions",
+    "category": "dresses",
+    "brand": "DVF",
+    "price": 239.44,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=117",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "cocktail",
+      "casual",
+      "elegant"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 118,
+    "name": "Shirt Dress",
+    "description": "Beautiful shirt dress for special occasions",
+    "category": "dresses",
+    "brand": "Reformation",
+    "price": 105.25,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=118",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "elegant",
+      "romantic",
+      "cocktail"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 119,
+    "name": "Pinafore Dress",
+    "description": "Beautiful pinafore dress for special occasions",
+    "category": "dresses",
+    "brand": "DVF",
+    "price": 129.33,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=119",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "elegant",
+      "casual",
+      "cocktail"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 120,
+    "name": "Babydoll Dress",
+    "description": "Beautiful babydoll dress for special occasions",
+    "category": "dresses",
+    "brand": "Zara",
+    "price": 70.02,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=120",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "cocktail",
+      "summer"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 121,
+    "name": "Asymmetric Dress",
+    "description": "Beautiful asymmetric dress for special occasions",
+    "category": "dresses",
+    "brand": "Calvin Klein",
+    "price": 218.16,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=121",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "elegant",
+      "formal",
+      "casual"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 122,
+    "name": "High-Low Dress",
+    "description": "Beautiful high-low dress for special occasions",
+    "category": "dresses",
+    "brand": "Free People",
+    "price": 206.78,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=122",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "elegant",
+      "cocktail",
+      "casual"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 123,
+    "name": "Mermaid Dress",
+    "description": "Beautiful mermaid dress for special occasions",
+    "category": "dresses",
+    "brand": "Kate Spade",
+    "price": 295.42,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=123",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "romantic",
+      "elegant",
+      "summer"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 124,
+    "name": "Ball Gown",
+    "description": "Beautiful ball gown for special occasions",
+    "category": "dresses",
+    "brand": "Kate Spade",
+    "price": 152.06,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=124",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "summer",
+      "romantic",
+      "casual"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 125,
+    "name": "Empire Waist Dress",
+    "description": "Beautiful empire waist dress for special occasions",
+    "category": "dresses",
+    "brand": "DVF",
+    "price": 57.28,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=125",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "elegant",
+      "cocktail",
+      "casual"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 126,
+    "name": "Halter Dress",
+    "description": "Beautiful halter dress for special occasions",
+    "category": "dresses",
+    "brand": "Zara",
+    "price": 209.9,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=126",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "cocktail",
+      "romantic"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 127,
+    "name": "Strapless Dress",
+    "description": "Beautiful strapless dress for special occasions",
+    "category": "dresses",
+    "brand": "Free People",
+    "price": 122.52,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=127",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "romantic",
+      "elegant"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 128,
+    "name": "One-Shoulder Dress",
+    "description": "Beautiful one-shoulder dress for special occasions",
+    "category": "dresses",
+    "brand": "Free People",
+    "price": 149.86,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=128",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "romantic",
+      "elegant"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 129,
+    "name": "Cap Sleeve Dress",
+    "description": "Beautiful cap sleeve dress for special occasions",
+    "category": "dresses",
+    "brand": "DVF",
+    "price": 181.39,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=129",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "cocktail",
+      "romantic",
+      "formal"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 130,
+    "name": "Puff Sleeve Dress",
+    "description": "Beautiful puff sleeve dress for special occasions",
+    "category": "dresses",
+    "brand": "Free People",
+    "price": 222.75,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=130",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "cocktail",
+      "casual",
+      "summer"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 131,
+    "name": "Smocked Dress",
+    "description": "Beautiful smocked dress for special occasions",
+    "category": "dresses",
+    "brand": "Calvin Klein",
+    "price": 72.85,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=131",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "elegant",
+      "cocktail"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 132,
+    "name": "Tiered Dress",
+    "description": "Beautiful tiered dress for special occasions",
+    "category": "dresses",
+    "brand": "Calvin Klein",
+    "price": 86.93,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=132",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "cocktail",
+      "summer"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 133,
+    "name": "Ruffled Dress",
+    "description": "Beautiful ruffled dress for special occasions",
+    "category": "dresses",
+    "brand": "DVF",
+    "price": 218.93,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=133",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "cocktail",
+      "summer",
+      "casual"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 134,
+    "name": "Pleated Dress",
+    "description": "Beautiful pleated dress for special occasions",
+    "category": "dresses",
+    "brand": "Mango",
+    "price": 203.35,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=134",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "cocktail",
+      "formal"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 135,
+    "name": "Sequin Dress",
+    "description": "Beautiful sequin dress for special occasions",
+    "category": "dresses",
+    "brand": "Calvin Klein",
+    "price": 223.93,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=135",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "summer",
+      "casual",
+      "cocktail"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 136,
+    "name": "Velvet Dress",
+    "description": "Beautiful velvet dress for special occasions",
+    "category": "dresses",
+    "brand": "Kate Spade",
+    "price": 107.48,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=136",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "romantic",
+      "formal",
+      "summer"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 137,
+    "name": "Satin Dress",
+    "description": "Beautiful satin dress for special occasions",
+    "category": "dresses",
+    "brand": "Reformation",
+    "price": 237.44,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=137",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "summer",
+      "elegant"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 138,
+    "name": "Chiffon Dress",
+    "description": "Beautiful chiffon dress for special occasions",
+    "category": "dresses",
+    "brand": "Reformation",
+    "price": 128.56,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=138",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "romantic",
+      "summer",
+      "formal"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 139,
+    "name": "Jersey Dress",
+    "description": "Beautiful jersey dress for special occasions",
+    "category": "dresses",
+    "brand": "Free People",
+    "price": 260.06,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=139",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "cocktail",
+      "romantic",
+      "formal"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 140,
+    "name": "Knit Dress",
+    "description": "Beautiful knit dress for special occasions",
+    "category": "dresses",
+    "brand": "Anthropologie",
+    "price": 79.36,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&sig=140",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "romantic",
+      "elegant",
+      "cocktail"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "bust": 34,
+        "waist": 27,
+        "length": 36
+      },
+      "M": {
+        "bust": 36,
+        "waist": 29,
+        "length": 37
+      }
+    }
+  },
+  {
+    "id": 141,
+    "name": "Varsity Jacket",
+    "description": "Stylish varsity jacket for all seasons",
+    "category": "jackets",
+    "brand": "J.Crew",
+    "price": 534.26,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=141",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "trendy",
+      "outdoor"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 142,
+    "name": "Harrington Jacket",
+    "description": "Stylish harrington jacket for all seasons",
+    "category": "jackets",
+    "brand": "AllSaints",
+    "price": 204.81,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=142",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "sporty",
+      "classic",
+      "formal"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 143,
+    "name": "Coach Jacket",
+    "description": "Stylish coach jacket for all seasons",
+    "category": "jackets",
+    "brand": "Patagonia",
+    "price": 369.58,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=143",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "formal",
+      "casual"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 144,
+    "name": "Anorak",
+    "description": "Stylish anorak for all seasons",
+    "category": "jackets",
+    "brand": "Barbour",
+    "price": 195.41,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=144",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "outdoor",
+      "sporty"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 145,
+    "name": "Quilted Jacket",
+    "description": "Stylish quilted jacket for all seasons",
+    "category": "jackets",
+    "brand": "Levi's",
+    "price": 221.06,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=145",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "formal",
+      "sporty"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 146,
+    "name": "Shearling Jacket",
+    "description": "Stylish shearling jacket for all seasons",
+    "category": "jackets",
+    "brand": "Alpha Industries",
+    "price": 97.62,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=146",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "sporty",
+      "outdoor",
+      "trendy"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 147,
+    "name": "Suede Jacket",
+    "description": "Stylish suede jacket for all seasons",
+    "category": "jackets",
+    "brand": "The North Face",
+    "price": 480.85,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=147",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "sporty",
+      "casual"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 148,
+    "name": "Corduroy Jacket",
+    "description": "Stylish corduroy jacket for all seasons",
+    "category": "jackets",
+    "brand": "J.Crew",
+    "price": 451.49,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=148",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "sporty",
+      "classic",
+      "casual"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 149,
+    "name": "Fleece Jacket",
+    "description": "Stylish fleece jacket for all seasons",
+    "category": "jackets",
+    "brand": "Barbour",
+    "price": 391.64,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=149",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "trendy",
+      "outdoor"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 150,
+    "name": "Softshell Jacket",
+    "description": "Stylish softshell jacket for all seasons",
+    "category": "jackets",
+    "brand": "Levi's",
+    "price": 508.19,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=150",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "classic",
+      "formal"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 151,
+    "name": "Rain Jacket",
+    "description": "Stylish rain jacket for all seasons",
+    "category": "jackets",
+    "brand": "Patagonia",
+    "price": 182.08,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=151",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "outdoor",
+      "classic"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 152,
+    "name": "Parka",
+    "description": "Stylish parka for all seasons",
+    "category": "jackets",
+    "brand": "Barbour",
+    "price": 421.51,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=152",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "sporty",
+      "outdoor"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 153,
+    "name": "Duffle Coat",
+    "description": "Stylish duffle coat for all seasons",
+    "category": "jackets",
+    "brand": "AllSaints",
+    "price": 310.97,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=153",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "outdoor",
+      "casual"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 154,
+    "name": "Car Coat",
+    "description": "Stylish car coat for all seasons",
+    "category": "jackets",
+    "brand": "AllSaints",
+    "price": 500.87,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=154",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "sporty",
+      "classic"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 155,
+    "name": "Barn Jacket",
+    "description": "Stylish barn jacket for all seasons",
+    "category": "jackets",
+    "brand": "AllSaints",
+    "price": 342.97,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=155",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "formal",
+      "sporty"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 156,
+    "name": "Work Jacket",
+    "description": "Stylish work jacket for all seasons",
+    "category": "jackets",
+    "brand": "AllSaints",
+    "price": 505.38,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=156",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "classic",
+      "outdoor"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 157,
+    "name": "Track Jacket",
+    "description": "Stylish track jacket for all seasons",
+    "category": "jackets",
+    "brand": "Levi's",
+    "price": 444.59,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=157",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "sporty",
+      "trendy"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 158,
+    "name": "Kimono Jacket",
+    "description": "Stylish kimono jacket for all seasons",
+    "category": "jackets",
+    "brand": "The North Face",
+    "price": 415.77,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=158",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "casual",
+      "formal"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 159,
+    "name": "Cape Coat",
+    "description": "Stylish cape coat for all seasons",
+    "category": "jackets",
+    "brand": "Alpha Industries",
+    "price": 426.86,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=159",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "outdoor",
+      "trendy"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 160,
+    "name": "Poncho",
+    "description": "Stylish poncho for all seasons",
+    "category": "jackets",
+    "brand": "J.Crew",
+    "price": 331.45,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=160",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "formal",
+      "trendy",
+      "outdoor"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 161,
+    "name": "Blazer Jacket",
+    "description": "Stylish blazer jacket for all seasons",
+    "category": "jackets",
+    "brand": "AllSaints",
+    "price": 311.88,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=161",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "trendy",
+      "formal",
+      "casual"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 162,
+    "name": "Sports Coat",
+    "description": "Stylish sports coat for all seasons",
+    "category": "jackets",
+    "brand": "Barbour",
+    "price": 276.62,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=162",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "outdoor",
+      "classic",
+      "sporty"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 163,
+    "name": "Dinner Jacket",
+    "description": "Stylish dinner jacket for all seasons",
+    "category": "jackets",
+    "brand": "AllSaints",
+    "price": 199.74,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=163",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "trendy",
+      "sporty"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 164,
+    "name": "Cardigan Coat",
+    "description": "Stylish cardigan coat for all seasons",
+    "category": "jackets",
+    "brand": "Barbour",
+    "price": 155.47,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=164",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "sporty",
+      "classic",
+      "casual"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 165,
+    "name": "Teddy Bear Jacket",
+    "description": "Stylish teddy bear jacket for all seasons",
+    "category": "jackets",
+    "brand": "J.Crew",
+    "price": 434.62,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=165",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "outdoor",
+      "trendy"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 166,
+    "name": "Sherpa Jacket",
+    "description": "Stylish sherpa jacket for all seasons",
+    "category": "jackets",
+    "brand": "Levi's",
+    "price": 539.86,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=166",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "outdoor",
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 167,
+    "name": "Utility Jacket",
+    "description": "Stylish utility jacket for all seasons",
+    "category": "jackets",
+    "brand": "J.Crew",
+    "price": 140.1,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=167",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "sporty",
+      "outdoor",
+      "formal"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 168,
+    "name": "Safari Jacket",
+    "description": "Stylish safari jacket for all seasons",
+    "category": "jackets",
+    "brand": "Patagonia",
+    "price": 255.87,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=168",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "classic",
+      "formal",
+      "outdoor"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 169,
+    "name": "Moto Jacket",
+    "description": "Stylish moto jacket for all seasons",
+    "category": "jackets",
+    "brand": "AllSaints",
+    "price": 129.64,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=169",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "sporty",
+      "casual",
+      "formal"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 170,
+    "name": "Aviator Jacket",
+    "description": "Stylish aviator jacket for all seasons",
+    "category": "jackets",
+    "brand": "Barbour",
+    "price": 288.52,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&sig=170",
+    "sizes_available": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "ar_compatible": true,
+    "style_tags": [
+      "casual",
+      "formal",
+      "trendy"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "S": {
+        "chest": 38,
+        "length": 26,
+        "sleeve": 24
+      },
+      "M": {
+        "chest": 41,
+        "length": 27,
+        "sleeve": 25
+      }
+    }
+  },
+  {
+    "id": 171,
+    "name": "Slip-On Sneakers",
+    "description": "Quality slip-on sneakers for everyday comfort",
+    "category": "shoes",
+    "brand": "Timberland",
+    "price": 392.19,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=171",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "comfortable",
+      "athletic"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 172,
+    "name": "Low-Top Sneakers",
+    "description": "Quality low-top sneakers for everyday comfort",
+    "category": "shoes",
+    "brand": "Converse",
+    "price": 74.4,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=172",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "trendy",
+      "athletic"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 173,
+    "name": "Platform Sneakers",
+    "description": "Quality platform sneakers for everyday comfort",
+    "category": "shoes",
+    "brand": "Nike",
+    "price": 260.47,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=173",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "trendy",
+      "formal",
+      "comfortable"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 174,
+    "name": "Chunky Sneakers",
+    "description": "Quality chunky sneakers for everyday comfort",
+    "category": "shoes",
+    "brand": "Nike",
+    "price": 327.57,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=174",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "athletic",
+      "trendy",
+      "casual"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 175,
+    "name": "Retro Runners",
+    "description": "Quality retro runners for everyday comfort",
+    "category": "shoes",
+    "brand": "Adidas",
+    "price": 57.45,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=175",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "athletic",
+      "trendy"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 176,
+    "name": "Trail Runners",
+    "description": "Quality trail runners for everyday comfort",
+    "category": "shoes",
+    "brand": "Nike",
+    "price": 266.41,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=176",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "comfortable",
+      "casual",
+      "athletic"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 177,
+    "name": "Cross Trainers",
+    "description": "Quality cross trainers for everyday comfort",
+    "category": "shoes",
+    "brand": "Timberland",
+    "price": 259.52,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=177",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "athletic",
+      "comfortable"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 178,
+    "name": "Training Shoes",
+    "description": "Quality training shoes for everyday comfort",
+    "category": "shoes",
+    "brand": "Dr. Martens",
+    "price": 174.9,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=178",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "comfortable",
+      "casual"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 179,
+    "name": "Walking Shoes",
+    "description": "Quality walking shoes for everyday comfort",
+    "category": "shoes",
+    "brand": "Adidas",
+    "price": 236.58,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=179",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "athletic",
+      "casual"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 180,
+    "name": "Boat Shoes",
+    "description": "Quality boat shoes for everyday comfort",
+    "category": "shoes",
+    "brand": "Cole Haan",
+    "price": 89.89,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=180",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "trendy",
+      "casual",
+      "comfortable"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 181,
+    "name": "Driving Shoes",
+    "description": "Quality driving shoes for everyday comfort",
+    "category": "shoes",
+    "brand": "Converse",
+    "price": 337.79,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=181",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "athletic",
+      "casual",
+      "comfortable"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 182,
+    "name": "Espadrilles",
+    "description": "Quality espadrilles for everyday comfort",
+    "category": "shoes",
+    "brand": "Dr. Martens",
+    "price": 135.69,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=182",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "comfortable",
+      "casual",
+      "formal"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 183,
+    "name": "Monk Strap Shoes",
+    "description": "Quality monk strap shoes for everyday comfort",
+    "category": "shoes",
+    "brand": "Timberland",
+    "price": 148.54,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=183",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "athletic",
+      "formal",
+      "comfortable"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 184,
+    "name": "Brogues",
+    "description": "Quality brogues for everyday comfort",
+    "category": "shoes",
+    "brand": "Nike",
+    "price": 73.67,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=184",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "athletic",
+      "comfortable"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 185,
+    "name": "Derby Shoes",
+    "description": "Quality derby shoes for everyday comfort",
+    "category": "shoes",
+    "brand": "Timberland",
+    "price": 378.61,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=185",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "athletic",
+      "casual",
+      "formal"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 186,
+    "name": "Dress Loafers",
+    "description": "Quality dress loafers for everyday comfort",
+    "category": "shoes",
+    "brand": "Cole Haan",
+    "price": 185.99,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=186",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "comfortable",
+      "formal",
+      "casual"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 187,
+    "name": "Ballet Flats",
+    "description": "Quality ballet flats for everyday comfort",
+    "category": "shoes",
+    "brand": "Dr. Martens",
+    "price": 260.52,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=187",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "trendy",
+      "athletic"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 188,
+    "name": "Mary Janes",
+    "description": "Quality mary janes for everyday comfort",
+    "category": "shoes",
+    "brand": "Timberland",
+    "price": 253.2,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=188",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "athletic",
+      "casual",
+      "comfortable"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 189,
+    "name": "Pumps",
+    "description": "Quality pumps for everyday comfort",
+    "category": "shoes",
+    "brand": "Nike",
+    "price": 270.49,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=189",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "trendy",
+      "formal"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 190,
+    "name": "Stilettos",
+    "description": "Quality stilettos for everyday comfort",
+    "category": "shoes",
+    "brand": "Converse",
+    "price": 124.4,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=190",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "athletic",
+      "trendy"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 191,
+    "name": "Wedges",
+    "description": "Quality wedges for everyday comfort",
+    "category": "shoes",
+    "brand": "Nike",
+    "price": 152.11,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=191",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "comfortable",
+      "formal",
+      "casual"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 192,
+    "name": "Ankle Boots",
+    "description": "Quality ankle boots for everyday comfort",
+    "category": "shoes",
+    "brand": "Converse",
+    "price": 331.94,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=192",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "comfortable",
+      "formal",
+      "trendy"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 193,
+    "name": "Knee-High Boots",
+    "description": "Quality knee-high boots for everyday comfort",
+    "category": "shoes",
+    "brand": "Dr. Martens",
+    "price": 260.19,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=193",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "athletic",
+      "trendy"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 194,
+    "name": "Over-the-Knee Boots",
+    "description": "Quality over-the-knee boots for everyday comfort",
+    "category": "shoes",
+    "brand": "Converse",
+    "price": 297.81,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=194",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "comfortable",
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 195,
+    "name": "Combat Boots",
+    "description": "Quality combat boots for everyday comfort",
+    "category": "shoes",
+    "brand": "Nike",
+    "price": 177.2,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=195",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "comfortable",
+      "athletic",
+      "trendy"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 196,
+    "name": "Work Boots",
+    "description": "Quality work boots for everyday comfort",
+    "category": "shoes",
+    "brand": "Nike",
+    "price": 195.65,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=196",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "casual",
+      "athletic"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 197,
+    "name": "Cowboy Boots",
+    "description": "Quality cowboy boots for everyday comfort",
+    "category": "shoes",
+    "brand": "Birkenstock",
+    "price": 236.71,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=197",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "athletic",
+      "comfortable",
+      "casual"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 198,
+    "name": "Rain Boots",
+    "description": "Quality rain boots for everyday comfort",
+    "category": "shoes",
+    "brand": "Converse",
+    "price": 57.25,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=198",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 199,
+    "name": "Flip-Flops",
+    "description": "Quality flip-flops for everyday comfort",
+    "category": "shoes",
+    "brand": "Nike",
+    "price": 150.77,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=199",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "trendy",
+      "formal",
+      "casual"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 200,
+    "name": "Slides",
+    "description": "Quality slides for everyday comfort",
+    "category": "shoes",
+    "brand": "Adidas",
+    "price": 337.39,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&sig=200",
+    "sizes_available": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "comfortable",
+      "athletic"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {
+      "8": {
+        "length": 26.0
+      },
+      "9": {
+        "length": 26.5
+      },
+      "10": {
+        "length": 27.0
+      }
+    }
+  },
+  {
+    "id": 201,
+    "name": "Leather Tote Bag",
+    "description": "Stylish leather tote bag to complete your outfit",
+    "category": "accessories",
+    "brand": "Fossil",
+    "price": 120.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=201",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "minimalist",
+      "vintage"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 202,
+    "name": "Crossbody Bag",
+    "description": "Stylish crossbody bag to complete your outfit",
+    "category": "accessories",
+    "brand": "Fossil",
+    "price": 85.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=202",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "trendy"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 203,
+    "name": "Backpack",
+    "description": "Stylish backpack to complete your outfit",
+    "category": "accessories",
+    "brand": "Fossil",
+    "price": 98.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=203",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 204,
+    "name": "Clutch Purse",
+    "description": "Stylish clutch purse to complete your outfit",
+    "category": "accessories",
+    "brand": "Kate Spade",
+    "price": 65.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=204",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "vintage",
+      "formal"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 205,
+    "name": "Messenger Bag",
+    "description": "Stylish messenger bag to complete your outfit",
+    "category": "accessories",
+    "brand": "Michael Kors",
+    "price": 110.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=205",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "trendy",
+      "casual"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 206,
+    "name": "Weekender Bag",
+    "description": "Stylish weekender bag to complete your outfit",
+    "category": "accessories",
+    "brand": "Fossil",
+    "price": 145.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=206",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "formal"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 207,
+    "name": "Belt Bag",
+    "description": "Stylish belt bag to complete your outfit",
+    "category": "accessories",
+    "brand": "Coach",
+    "price": 45.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=207",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "trendy",
+      "vintage"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 208,
+    "name": "Shoulder Bag",
+    "description": "Stylish shoulder bag to complete your outfit",
+    "category": "accessories",
+    "brand": "Ray-Ban",
+    "price": 95.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=208",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "casual"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 209,
+    "name": "Satchel",
+    "description": "Stylish satchel to complete your outfit",
+    "category": "accessories",
+    "brand": "Coach",
+    "price": 135.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=209",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "vintage"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 210,
+    "name": "Hobo Bag",
+    "description": "Stylish hobo bag to complete your outfit",
+    "category": "accessories",
+    "brand": "Tory Burch",
+    "price": 125.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=210",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 211,
+    "name": "Aviator Sunglasses",
+    "description": "Stylish aviator sunglasses to complete your outfit",
+    "category": "accessories",
+    "brand": "Michael Kors",
+    "price": 150.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=211",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "minimalist",
+      "formal"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 212,
+    "name": "Wayfarer Sunglasses",
+    "description": "Stylish wayfarer sunglasses to complete your outfit",
+    "category": "accessories",
+    "brand": "Pandora",
+    "price": 145.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=212",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "vintage",
+      "minimalist"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 213,
+    "name": "Cat Eye Sunglasses",
+    "description": "Stylish cat eye sunglasses to complete your outfit",
+    "category": "accessories",
+    "brand": "Tory Burch",
+    "price": 120.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=213",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "trendy",
+      "minimalist"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 214,
+    "name": "Round Sunglasses",
+    "description": "Stylish round sunglasses to complete your outfit",
+    "category": "accessories",
+    "brand": "Tory Burch",
+    "price": 135.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=214",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "trendy",
+      "vintage"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 215,
+    "name": "Leather Belt",
+    "description": "Stylish leather belt to complete your outfit",
+    "category": "accessories",
+    "brand": "Coach",
+    "price": 45.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=215",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "vintage"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 216,
+    "name": "Canvas Belt",
+    "description": "Stylish canvas belt to complete your outfit",
+    "category": "accessories",
+    "brand": "Fossil",
+    "price": 25.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=216",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "trendy",
+      "casual"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 217,
+    "name": "Woven Belt",
+    "description": "Stylish woven belt to complete your outfit",
+    "category": "accessories",
+    "brand": "Kate Spade",
+    "price": 35.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=217",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 218,
+    "name": "Chain Belt",
+    "description": "Stylish chain belt to complete your outfit",
+    "category": "accessories",
+    "brand": "Michael Kors",
+    "price": 55.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=218",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 219,
+    "name": "Silk Scarf",
+    "description": "Stylish silk scarf to complete your outfit",
+    "category": "accessories",
+    "brand": "Kate Spade",
+    "price": 75.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=219",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 220,
+    "name": "Wool Scarf",
+    "description": "Stylish wool scarf to complete your outfit",
+    "category": "accessories",
+    "brand": "Pandora",
+    "price": 65.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=220",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 221,
+    "name": "Cotton Scarf",
+    "description": "Stylish cotton scarf to complete your outfit",
+    "category": "accessories",
+    "brand": "Tory Burch",
+    "price": 35.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=221",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "formal"
+    ],
+    "colors": [
+      "white"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 222,
+    "name": "Infinity Scarf",
+    "description": "Stylish infinity scarf to complete your outfit",
+    "category": "accessories",
+    "brand": "Ray-Ban",
+    "price": 40.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=222",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "minimalist",
+      "vintage"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 223,
+    "name": "Leather Wallet",
+    "description": "Stylish leather wallet to complete your outfit",
+    "category": "accessories",
+    "brand": "Pandora",
+    "price": 85.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=223",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "minimalist"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 224,
+    "name": "Card Holder",
+    "description": "Stylish card holder to complete your outfit",
+    "category": "accessories",
+    "brand": "Fossil",
+    "price": 45.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=224",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "formal",
+      "trendy"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 225,
+    "name": "Zip Wallet",
+    "description": "Stylish zip wallet to complete your outfit",
+    "category": "accessories",
+    "brand": "Tory Burch",
+    "price": 95.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=225",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "formal"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 226,
+    "name": "Bifold Wallet",
+    "description": "Stylish bifold wallet to complete your outfit",
+    "category": "accessories",
+    "brand": "Coach",
+    "price": 65.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=226",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "vintage",
+      "casual"
+    ],
+    "colors": [
+      "beige"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 227,
+    "name": "Baseball Cap",
+    "description": "Stylish baseball cap to complete your outfit",
+    "category": "accessories",
+    "brand": "Tory Burch",
+    "price": 30.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=227",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "trendy",
+      "vintage"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 228,
+    "name": "Beanie",
+    "description": "Stylish beanie to complete your outfit",
+    "category": "accessories",
+    "brand": "Pandora",
+    "price": 25.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=228",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "vintage",
+      "minimalist"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 229,
+    "name": "Fedora",
+    "description": "Stylish fedora to complete your outfit",
+    "category": "accessories",
+    "brand": "Fossil",
+    "price": 60.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=229",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "minimalist",
+      "casual"
+    ],
+    "colors": [
+      "navy"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 230,
+    "name": "Bucket Hat",
+    "description": "Stylish bucket hat to complete your outfit",
+    "category": "accessories",
+    "brand": "Coach",
+    "price": 35.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=230",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "trendy"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 231,
+    "name": "Wide Brim Hat",
+    "description": "Stylish wide brim hat to complete your outfit",
+    "category": "accessories",
+    "brand": "Michael Kors",
+    "price": 55.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=231",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "minimalist",
+      "trendy"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 232,
+    "name": "Panama Hat",
+    "description": "Stylish panama hat to complete your outfit",
+    "category": "accessories",
+    "brand": "Kate Spade",
+    "price": 75.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=232",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "vintage",
+      "trendy"
+    ],
+    "colors": [
+      "green"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 233,
+    "name": "Analog Watch",
+    "description": "Stylish analog watch to complete your outfit",
+    "category": "accessories",
+    "brand": "Coach",
+    "price": 195.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=233",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "trendy",
+      "vintage"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 234,
+    "name": "Digital Watch",
+    "description": "Stylish digital watch to complete your outfit",
+    "category": "accessories",
+    "brand": "Fossil",
+    "price": 125.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=234",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "minimalist",
+      "formal"
+    ],
+    "colors": [
+      "black"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 235,
+    "name": "Smart Watch",
+    "description": "Stylish smart watch to complete your outfit",
+    "category": "accessories",
+    "brand": "Kate Spade",
+    "price": 299.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=235",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "minimalist",
+      "casual"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 236,
+    "name": "Chronograph Watch",
+    "description": "Stylish chronograph watch to complete your outfit",
+    "category": "accessories",
+    "brand": "Pandora",
+    "price": 425.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=236",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "formal"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 237,
+    "name": "Stud Earrings",
+    "description": "Stylish stud earrings to complete your outfit",
+    "category": "accessories",
+    "brand": "Tory Burch",
+    "price": 45.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=237",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "vintage"
+    ],
+    "colors": [
+      "brown"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 238,
+    "name": "Hoop Earrings",
+    "description": "Stylish hoop earrings to complete your outfit",
+    "category": "accessories",
+    "brand": "Coach",
+    "price": 55.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=238",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "minimalist"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 239,
+    "name": "Pendant Necklace",
+    "description": "Stylish pendant necklace to complete your outfit",
+    "category": "accessories",
+    "brand": "Coach",
+    "price": 85.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=239",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "vintage",
+      "formal"
+    ],
+    "colors": [
+      "red"
+    ],
+    "size_chart": {}
+  },
+  {
+    "id": 240,
+    "name": "Charm Bracelet",
+    "description": "Stylish charm bracelet to complete your outfit",
+    "category": "accessories",
+    "brand": "Coach",
+    "price": 95.0,
+    "image_url": "https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?w=400&sig=240",
+    "sizes_available": [
+      "One Size"
+    ],
+    "ar_compatible": false,
+    "style_tags": [
+      "casual",
+      "minimalist"
+    ],
+    "colors": [
+      "yellow"
+    ],
+    "size_chart": {}
   }
 ]

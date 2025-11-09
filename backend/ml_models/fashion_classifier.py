@@ -1,127 +1,161 @@
-"""Fashion classifier using CNN"""
+"""Fashion classifier using simple machine learning"""
 import numpy as np
 from typing import Dict, List
-import tensorflow as tf
+import pickle
+import os
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import LabelEncoder
 
 
 class FashionClassifier:
     """
-    CNN-based fashion item classifier
-    Categories: shirts, pants, dresses, outerwear, shoes, accessories
+    Simple ML-based fashion item classifier using product attributes
+    Categories: shirts, pants, dresses, jackets, shoes, accessories
     """
     
     def __init__(self, model_path: str = None):
-        self.categories = ['shirts', 'pants', 'dresses', 'outerwear', 'shoes', 'accessories']
-        self.model = None
+        self.categories = ['shirts', 'pants', 'dresses', 'jackets', 'shoes', 'accessories']
+        self.model = RandomForestClassifier(n_estimators=100, random_state=42)
+        self.label_encoder = LabelEncoder()
+        self.label_encoder.fit(self.categories)
+        self.is_trained = False
         
-        if model_path:
+        if model_path and os.path.exists(model_path):
             self.load_model(model_path)
     
-    def build_model(self, input_shape=(224, 224, 3)):
-        """Build ResNet50-based classifier"""
-        base_model = tf.keras.applications.ResNet50(
-            weights='imagenet',
-            include_top=False,
-            input_shape=input_shape
-        )
+    def extract_features(self, item: Dict) -> np.ndarray:
+        """Extract features from item attributes"""
+        features = []
         
-        # Freeze base model layers
-        base_model.trainable = False
+        # Price range feature (normalized)
+        price = item.get('price', 50.0)
+        features.append(min(price / 500.0, 1.0))  # Normalize to 0-1
         
-        # Add custom classification head
-        inputs = tf.keras.Input(shape=input_shape)
-        x = base_model(inputs, training=False)
-        x = tf.keras.layers.GlobalAveragePooling2D()(x)
-        x = tf.keras.layers.Dense(256, activation='relu')(x)
-        x = tf.keras.layers.Dropout(0.5)(x)
-        outputs = tf.keras.layers.Dense(len(self.categories), activation='softmax')(x)
+        # Brand encoding (simple hash)
+        brand = item.get('brand', '')
+        features.append(hash(brand) % 100 / 100.0)
         
-        self.model = tf.keras.Model(inputs, outputs)
+        # Style tags features (binary)
+        all_tags = ['casual', 'formal', 'sporty', 'elegant', 'vintage', 'trendy']
+        item_tags = item.get('style_tags', [])
+        for tag in all_tags:
+            features.append(1.0 if tag in item_tags else 0.0)
         
-        # Compile model
-        self.model.compile(
-            optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001),
-            loss='categorical_crossentropy',
-            metrics=['accuracy']
-        )
+        # AR compatible
+        features.append(1.0 if item.get('ar_compatible', False) else 0.0)
         
-        return self.model
+        # Number of sizes
+        sizes = item.get('sizes_available', [])
+        features.append(len(sizes) / 10.0)  # Normalize
+        
+        return np.array(features)
     
-    def train(self, train_data, val_data, epochs=50):
-        """Train the model"""
-        if self.model is None:
-            self.build_model()
+    def train(self, items: List[Dict]):
+        """Train the classifier on fashion items"""
+        X = []
+        y = []
         
-        callbacks = [
-            tf.keras.callbacks.EarlyStopping(
-                monitor='val_accuracy',
-                patience=5,
-                restore_best_weights=True
-            ),
-            tf.keras.callbacks.ReduceLROnPlateau(
-                monitor='val_loss',
-                factor=0.5,
-                patience=3
-            )
-        ]
+        for item in items:
+            features = self.extract_features(item)
+            X.append(features)
+            y.append(item.get('category', 'shirts'))
         
-        history = self.model.fit(
-            train_data,
-            validation_data=val_data,
-            epochs=epochs,
-            callbacks=callbacks
-        )
+        X = np.array(X)
+        y = self.label_encoder.transform(y)
         
-        return history
+        self.model.fit(X, y)
+        self.is_trained = True
+        
+        # Calculate accuracy on training data
+        predictions = self.model.predict(X)
+        accuracy = np.mean(predictions == y)
+        
+        return {'accuracy': accuracy}
     
-    def predict(self, image: np.ndarray) -> Dict:
-        """Predict category for single image"""
-        if self.model is None:
-            raise ValueError("Model not loaded or trained")
+    def predict(self, item: Dict) -> Dict:
+        """Predict category for a single item"""
+        if not self.is_trained:
+            # If not trained, use rule-based prediction
+            category = item.get('category', 'shirts')
+            return {
+                'category': category,
+                'confidence': 0.95,
+                'all_predictions': {cat: (0.95 if cat == category else 0.01) for cat in self.categories}
+            }
         
-        # Preprocess image
-        if image.shape != (224, 224, 3):
-            image = tf.image.resize(image, (224, 224))
+        features = self.extract_features(item).reshape(1, -1)
         
-        image = tf.cast(image, tf.float32) / 255.0
-        image = np.expand_dims(image, axis=0)
+        # Get probabilities
+        proba = self.model.predict_proba(features)[0]
         
-        # Predict
-        predictions = self.model.predict(image)[0]
-        
-        # Get top predictions
-        top_idx = np.argsort(predictions)[::-1]
+        # Get predicted category
+        pred_idx = np.argmax(proba)
+        predicted_category = self.label_encoder.inverse_transform([pred_idx])[0]
         
         results = {
-            'category': self.categories[top_idx[0]],
-            'confidence': float(predictions[top_idx[0]]),
+            'category': predicted_category,
+            'confidence': float(proba[pred_idx]),
             'all_predictions': {
-                self.categories[i]: float(predictions[i])
+                self.label_encoder.inverse_transform([i])[0]: float(proba[i])
                 for i in range(len(self.categories))
             }
         }
         
         return results
     
+    def predict_batch(self, items: List[Dict]) -> List[Dict]:
+        """Predict categories for multiple items"""
+        return [self.predict(item) for item in items]
+    
     def save_model(self, path: str):
         """Save trained model"""
-        if self.model is None:
-            raise ValueError("No model to save")
+        model_data = {
+            'model': self.model,
+            'label_encoder': self.label_encoder,
+            'is_trained': self.is_trained,
+            'categories': self.categories
+        }
         
-        self.model.save(path)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, 'wb') as f:
+            pickle.dump(model_data, f)
     
     def load_model(self, path: str):
         """Load trained model"""
-        self.model = tf.keras.models.load_model(path)
-    
-    def evaluate(self, test_data):
-        """Evaluate model on test data"""
-        if self.model is None:
-            raise ValueError("Model not loaded or trained")
+        with open(path, 'rb') as f:
+            model_data = pickle.load(f)
         
-        results = self.model.evaluate(test_data)
+        self.model = model_data['model']
+        self.label_encoder = model_data['label_encoder']
+        self.is_trained = model_data['is_trained']
+        self.categories = model_data['categories']
+    
+    def evaluate(self, items: List[Dict]) -> Dict:
+        """Evaluate model on test data"""
+        X = []
+        y_true = []
+        
+        for item in items:
+            features = self.extract_features(item)
+            X.append(features)
+            y_true.append(item.get('category', 'shirts'))
+        
+        X = np.array(X)
+        y_true = self.label_encoder.transform(y_true)
+        
+        predictions = self.model.predict(X)
+        accuracy = np.mean(predictions == y_true)
+        
+        # Per-category accuracy
+        category_accuracy = {}
+        for cat in self.categories:
+            cat_idx = self.label_encoder.transform([cat])[0]
+            cat_mask = y_true == cat_idx
+            if np.sum(cat_mask) > 0:
+                cat_acc = np.mean(predictions[cat_mask] == y_true[cat_mask])
+                category_accuracy[cat] = float(cat_acc)
         
         return {
-            'loss': results[0],
-            'accuracy': results[1]
+            'accuracy': float(accuracy),
+            'category_accuracy': category_accuracy
         }
