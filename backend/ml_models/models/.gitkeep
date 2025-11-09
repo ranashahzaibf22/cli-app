@@ -1,0 +1,10 @@
+# Placeholder for trained models
+# Models will be saved here after training
+
+# Expected files:
+# - fashion_classifier.h5
+# - size_recommender_rf.pkl
+# - size_recommender_nn.h5
+# - size_recommender_scaler.pkl
+# - style_matcher.h5
+# - user_preference_model.h5

@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "name": "Classic White T-Shirt",
+    "description": "Comfortable cotton t-shirt perfect for everyday wear",
+    "category": "shirts",
+    "subcategory": "t-shirts",
+    "brand": "StyleBrand",
+    "price": 29.99,
+    "image_urls": [
+      "https://example.com/images/tshirt-white-front.jpg",
+      "https://example.com/images/tshirt-white-back.jpg"
+    ],
+    "color_variants": ["white", "black", "navy", "gray"],
+    "size_chart": {
+      "S": {"chest": "34-36", "length": "27"},
+      "M": {"chest": "38-40", "length": "28"},
+      "L": {"chest": "42-44", "length": "29"},
+      "XL": {"chest": "46-48", "length": "30"}
+    },
+    "materials": ["100% Cotton"],
+    "care_instructions": "Machine wash cold, tumble dry low",
+    "sustainability_score": 75,
+    "ar_compatible": true
+  },
+  {
+    "id": 2,
+    "name": "Slim Fit Jeans",
+    "description": "Modern slim fit jeans with stretch comfort",
+    "category": "pants",
+    "subcategory": "jeans",
+    "brand": "DenimCo",
+    "price": 79.99,
+    "image_urls": [
+      "https://example.com/images/jeans-blue-front.jpg"
+    ],
+    "color_variants": ["dark blue", "light blue", "black"],
+    "size_chart": {
+      "28": {"waist": "28", "inseam": "32"},
+      "30": {"waist": "30", "inseam": "32"},
+      "32": {"waist": "32", "inseam": "32"},
+      "34": {"waist": "34", "inseam": "32"}
+    },
+    "materials": ["98% Cotton", "2% Elastane"],
+    "care_instructions": "Machine wash cold inside out",
+    "sustainability_score": 60,
+    "ar_compatible": true
+  },
+  {
+    "id": 3,
+    "name": "Summer Floral Dress",
+    "description": "Light and breezy floral print dress for warm days",
+    "category": "dresses",
+    "subcategory": "casual",
+    "brand": "FashionCo",
+    "price": 89.99,
+    "image_urls": [
+      "https://example.com/images/dress-floral.jpg"
+    ],
+    "color_variants": ["floral-pink", "floral-blue"],
+    "size_chart": {
+      "XS": {"bust": "32", "waist": "24", "hips": "34"},
+      "S": {"bust": "34", "waist": "26", "hips": "36"},
+      "M": {"bust": "36", "waist": "28", "hips": "38"},
+      "L": {"bust": "38", "waist": "30", "hips": "40"}
+    },
+    "materials": ["100% Rayon"],
+    "care_instructions": "Hand wash cold, hang dry",
+    "sustainability_score": 80,
+    "ar_compatible": true
+  },
+  {
+    "id": 4,
+    "name": "Leather Jacket",
+    "description": "Classic black leather jacket with zipper closure",
+    "category": "outerwear",
+    "subcategory": "jackets",
+    "brand": "UrbanStyle",
+    "price": 249.99,
+    "image_urls": [
+      "https://example.com/images/jacket-leather.jpg"
+    ],
+    "color_variants": ["black", "brown"],
+    "size_chart": {
+      "S": {"chest": "36", "shoulder": "17", "sleeve": "24"},
+      "M": {"chest": "38", "shoulder": "18", "sleeve": "25"},
+      "L": {"chest": "40", "shoulder": "19", "sleeve": "26"}
+    },
+    "materials": ["100% Genuine Leather"],
+    "care_instructions": "Professional leather cleaning only",
+    "sustainability_score": 45,
+    "ar_compatible": true
+  },
+  {
+    "id": 5,
+    "name": "Running Sneakers",
+    "description": "Lightweight running shoes with cushioned sole",
+    "category": "shoes",
+    "subcategory": "athletic",
+    "brand": "ActiveWear",
+    "price": 119.99,
+    "image_urls": [
+      "https://example.com/images/sneakers-running.jpg"
+    ],
+    "color_variants": ["white-blue", "black-red", "gray"],
+    "size_chart": {
+      "7": {"length": "25.0cm"},
+      "8": {"length": "25.5cm"},
+      "9": {"length": "26.0cm"},
+      "10": {"length": "26.5cm"},
+      "11": {"length": "27.0cm"}
+    },
+    "materials": ["Mesh Upper", "Rubber Sole"],
+    "care_instructions": "Wipe clean with damp cloth",
+    "sustainability_score": 55,
+    "ar_compatible": false
+  }
+]
