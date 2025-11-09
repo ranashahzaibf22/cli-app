@@ -1,0 +1,14 @@
+# Nixpacks configuration for Railway Python backend
+# Place this file in the backend/ directory or use Railway's root directory setting
+
+[phases.setup]
+nixPkgs = ["python310", "postgresql"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[phases.build]
+cmds = ["echo 'Python dependencies installed'"]
+
+[start]
+cmd = "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"

@@ -207,12 +207,29 @@ The platform includes four custom ML models:
 
 ## 🌐 Deployment
 
-**Backend:** Railway (Docker container)  
-**Frontend:** Vercel (Edge Network)  
+This is a **monorepo** with separate backend and frontend services.
+
+**Backend:** Railway (Python/FastAPI)  
+**Frontend:** Vercel (Next.js)  
 **Database:** Railway PostgreSQL  
 **Redis:** Railway Redis
 
-See [Deployment Guide](docs/DEPLOYMENT-GUIDE.md) for details.
+### Quick Deploy
+
+**Backend to Railway:**
+1. Create a Railway project
+2. Add service from GitHub
+3. **Set Root Directory: `backend`**
+4. Add PostgreSQL and Redis databases
+5. Configure environment variables
+
+**Frontend to Vercel:**
+1. Import GitHub repository to Vercel
+2. **Set Root Directory: `frontend`**
+3. Set `NEXT_PUBLIC_API_URL` environment variable
+4. Deploy!
+
+📖 **See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment instructions.**
 
 ## 👥 Contributing
 
