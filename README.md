@@ -2,6 +2,8 @@
 
 A production-ready AI-powered virtual fashion try-on platform combining machine learning, augmented reality, and modern web technologies.
 
+> 🚀 **Quick Deploy**: See [QUICK-START.md](QUICK-START.md) for deployment instructions to Railway and Vercel.
+
 ## 🎯 Features
 
 - **Advanced AR Try-On**: Real-time pose detection using MediaPipe with realistic clothing overlay
