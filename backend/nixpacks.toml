@@ -1,0 +1,11 @@
+# nixpacks.toml
+# Railway configuration for Python FastAPI backend
+
+[phases.setup]
+nixPkgs = ["python310", "gcc", "g++", "postgresql"]
+
+[phases.install]
+cmds = ["pip install --upgrade pip", "pip install -r requirements.txt"]
+
+[start]
+cmd = "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
